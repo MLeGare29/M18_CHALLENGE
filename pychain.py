@@ -72,7 +72,7 @@ class Block:
 
     # @TODO
     # Rename the `data` attribute to `record`, and set the data type to `Record`
-    record: Record 
+    record: Record
 
     creator_id: int
     prev_hash: str = "0"
@@ -143,7 +143,8 @@ class PyChain:
 # Adds the cache decorator for Streamlit
 
 
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
+st.cache_resource
 def setup():
     print("Initializing Chain")
     return PyChain([Block("Genesis", 0)])
@@ -171,6 +172,7 @@ pychain = setup()
 # @TODO:
 # Delete the `input_data` variable from the Streamlit interface.
 
+
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
 sender = st.text_input("Sender")
@@ -192,8 +194,7 @@ if st.button("Add Block"):
     # which is set equal to a `Record` that contains the `sender`, `receiver`,
     # and `amount` values
     new_block = Block(
-        record=Record,
-        data=input_data,
+        record=Record(sender, receiver, amount),
         creator_id=42,
         prev_hash=prev_block_hash
     )
