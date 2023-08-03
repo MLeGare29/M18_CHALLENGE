@@ -46,3 +46,23 @@ Running the PyChain Ledger on the Streamlit web app in the IDE Command Line: `st
 
 
 ## GALLERY
+
+![image](https://github.com/MLeGare29/M18_CHALLENGE/assets/127421460/8361528b-5c4e-4de0-9b9f-6c61c2f027fe)
+
+![image](https://github.com/MLeGare29/M18_CHALLENGE/assets/127421460/16084c92-04e0-4719-bfae-736681500ecb)
+
+![image](https://github.com/MLeGare29/M18_CHALLENGE/assets/127421460/232b8502-6a5d-47cd-89b2-e19ada8066ec)
+
+![image](https://github.com/MLeGare29/M18_CHALLENGE/assets/127421460/375f81f5-3165-43a2-8dd6-0e2cca6d1e14)
+
+
+
+## CONTRIBUTORS
+
+*Marcus LeGare (Author, Developer)*
+
+*Elna Kattoor (Learning Assistant)*
+
+### LICENSE
+
+**COLUMBIA UNIVERISTY FINTECH BOOTCAMP**
